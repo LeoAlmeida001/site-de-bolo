@@ -1,0 +1,70 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almeida Bolos</title>
+    <meta name="description" content="Vendemos bolos caseiros e personalizados para todas as ocasiões e aceitamos encomendas de qualquer tipo de bolo.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Almeida Bolos</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#bolos">Bolos</a></li>
+                <li><a href="#encomenda">Encomenda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Bolos Caseiros e Personalizados</h2>
+            <p>Vendemos bolos caseiros e personalizados para todas as ocasiões e aceitamos encomendas de qualquer tipo de bolo.</p>
+            <a href="#bolos" class="button">Veja Nossos Bolos</a>
+        </div>
+    </section>
+
+    <section id="bolos" class="bolos-section">
+        <h2>Nossos Bolos</h2>
+        <div class="bolos-grid">
+            </div>
+    </section>
+
+    <section id="encomenda" class="encomenda-section">
+        <h2>Encomende Seu Bolo Personalizado</h2>
+        <form id="encomenda-form">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-group">
+                <label for="tipo_bolo">Tipo de Bolo:</label>
+                <input type="text" id="tipo_bolo" name="tipo_bolo" required>
+            </div>
+            <div class="form-group">
+                <label for="detalhes">Detalhes Adicionais:</label>
+                <textarea id="detalhes" name="detalhes" rows="4"></textarea>
+            </div>
+            <button type="submit" class="button">Enviar Encomenda</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Almeida Bolos</p>
+    </footer>
+</body>
+</html>
